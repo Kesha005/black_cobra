@@ -1,7 +1,10 @@
 package main
+
 import (
-   "fmt"
-      //import fmt and os package
+	
+
+	"github.com/Kesha005/bc/cmd"
+	//import fmt and os package
 )
 
 // func main() {
@@ -14,5 +17,5 @@ import (
 
 
 func main(){
-	
+   cmd.Execute()
 }

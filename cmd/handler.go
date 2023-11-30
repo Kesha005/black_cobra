@@ -12,7 +12,7 @@ func hello(){
 
 var handler = &cobra.Command{
 	
-	Use: 	"hanlder",
+	Use: 	"handler",
 	Short:  "Makes handler",
 	Long:	"Creates handler with custom name",
 	Run: func(cmd *cobra.Command, args []string) {
@@ -20,3 +20,6 @@ var handler = &cobra.Command{
 	},
 }
 
+func init(){
+	rootCmd.AddCommand(handler)
+}

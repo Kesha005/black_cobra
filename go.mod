@@ -1,4 +1,4 @@
-module github.com/Kesha005/black_cobra
+module github.com/Kesha005/bc
 
 go 1.19
 
